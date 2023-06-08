@@ -10,7 +10,8 @@ export default class About extends Component {
             <div className="split left">
               <div className="centered">
                 <img 
-                  className={profile_pic_name}
+                  // className={profile_pic_name}
+                  src = {profile_pic_name}
                   // Image goes here
                   alt="Profile Pic"
                   ></img>
@@ -18,9 +19,12 @@ export default class About extends Component {
             </div>
             <div className="split right">
               <div className="centered">
-                <div className="name_title">Your Name</div>
+                <div className="name_title">Victor Escudero</div>
                 <div className="brief_description">
-                  // Details about you goes here
+                Hello, my name is Victor Escudero. I love to play guitar, code, play sports, 
+                and longboard. I am currently and undergrad at University of 
+                Illinois at Chicago and I am studying Computer Science. 
+                Looking forward to meeting all of you guys!!!
                 </div>
               </div>
             </div>

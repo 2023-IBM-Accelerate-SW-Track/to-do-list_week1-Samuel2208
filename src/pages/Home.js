@@ -10,6 +10,7 @@ class Home extends Component {
   constructor() {
     super();
     this.state = {
+      //var todos = []/* FIX ME */
       // create your empty list here call it todos.
     };
   }
@@ -32,7 +33,8 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <p> Replace this</p>
+        {/* <Todos todos={this.state} />
+        <AddTodo addTodo={addTodo()} /> */}
         <h1>Todo's </h1>
       </div>
     );
