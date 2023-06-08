@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+// "./About.css";
+import "../component/AddTodo"
+import "../component/todos"
+import "./Home.css"
+
 
 class Home extends Component {
   // A default state of this component with an empty list of todos.
