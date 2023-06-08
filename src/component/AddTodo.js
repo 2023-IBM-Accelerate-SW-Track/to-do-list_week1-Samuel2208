@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button, TextField } from "@mui/material";
+
 class AddTodo extends Component {
     // A local react state of the this component with a content property set to nothing.
     constructor() {
@@ -40,7 +41,7 @@ class AddTodo extends Component {
           <TextField
             label="Add New Item"
             variant="outlined"
-            //onChange={call handleChange here}
+            onChange={this.handleChange}
             //value={set the content state here}
           />
           <Button
