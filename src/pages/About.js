@@ -12,7 +12,6 @@ export default class About extends Component {
                 <img 
                   className="profile_image"
                   src = {profile_pic_name}
-                  // Image goes here
                   alt="Profile Pic"
                   ></img>
               </div>

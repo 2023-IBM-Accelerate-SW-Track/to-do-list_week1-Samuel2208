@@ -42,11 +42,11 @@ class AddTodo extends Component {
             label="Add New Item"
             variant="outlined"
             onChange={this.handleChange}
-            //value={set the content state here}
+            value={this.state.content}
           />
           <Button
             style={{ marginLeft: "10px" }}
-            //onClick={call handleSubmit here}
+            onClick={this.handleSubmit}
             variant="contained"
             color="primary"
           >
